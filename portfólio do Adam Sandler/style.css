@@ -1,18 +1,13 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* Corpo */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f2f5;
   color: #333;
 }
-
-/* Título */
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
@@ -21,21 +16,17 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 h2, h3 {
   font-size: 2rem;
   font-weight: bold;
   color: #304153;
   margin-bottom: 20px;
 }
-
 p {
   font-size: 1.1rem;
   line-height: 1.7;
   color: #444;
 }
-
-/* Links */
 a {
   color: #283b50;
   text-decoration: none;
@@ -46,15 +37,11 @@ a:hover {
   color: #2c4e72;
   text-decoration: underline;
 }
-
-/* Imagem de perfil */
 img.rounded-circle {
   border: 5px solid #445568;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-/* Imagens laterais */
 .img-row {
   display: flex;
   justify-content: center;
@@ -69,8 +56,6 @@ img.rounded-circle {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-/* Responsividade */
 @media (max-width: 768px) {
   h2, h3 {
     font-size: 1.8rem;
